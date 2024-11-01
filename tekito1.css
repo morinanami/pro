@@ -1,0 +1,225 @@
+/* 背景 */
+.bg_pattern {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #bcbace;
+  opacity: 0.4;
+  z-index: -1;
+}
+.Cross {
+  background: radial-gradient(circle, transparent 20%,#51c3ff 20%,#51c3ff 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%,#51c3ff 20%,#51c3ff 80%, transparent 80%, transparent) 50px 50px, linear-gradient(#daffd4 4px, transparent 4px) 0 -2px, linear-gradient(90deg, #daffd4 4px,#51c3ff 4px) -2px 0;
+background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
+}
+
+/* 外枠 */
+
+.box4{
+    padding: 8px 19px;
+    margin: 2em 0;
+    color: #2c2c2f;
+    background: #f9d4ff;
+    border-top: solid 5px #ffe3d4;
+    border-bottom: solid 5px #ffe3d4;
+}
+.box4 p {
+    margin: 0; 
+    padding: 0;
+}
+
+/* 内枠 */
+
+.box7{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #474747;
+    background: #edffea;/*背景色*/
+    border-left: double 7px #eaedff;/*左線*/
+    border-right: double 7px #eaedff;/*右線*/
+}
+.box7 p {
+    margin: 0; 
+    padding: 0;
+}
+
+/* 本文のFI */
+
+.text__slideIn {
+  animation: slideIn 3.2s ;
+}
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+/* 吹き出し */
+
+h5 {
+  position: relative;
+  padding: 1.5rem 2rem;
+  border: 3px solid #d8d8d8;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+
+h5:before {
+  position: absolute;
+  bottom: -14px;
+  left: 1em;
+  width: 0;
+  height: 0;
+  content: '';
+  border-width: 14px 12px 0 12px;
+  border-style: solid;
+  border-color: #d8d8d8 transparent transparent transparent;
+}
+
+h5:after {
+  position: absolute;
+  bottom: -10px;
+  left: 1em;
+  width: 0;
+  height: 0;
+  content: '';
+  border-width: 14px 12px 0 12px;
+  border-style: solid;
+  border-color: #f9f9f9 transparent transparent transparent;
+}
+
+/* 要素を横並びにします。 */
+
+.box {
+ display: flex;
+ justify-content: center;
+}
+
+.box__card {
+ margin-right: 20px;
+}
+
+.box__card:last-child {
+ margin-right: 0;
+}
+img {
+ width: 100%;
+ height: 100%;
+ max-width: 200px;
+ display: block;
+}
+
+p {
+ text-align: center;
+}
+
+
+/* 要素を横並びにします。 */
+
+.box {
+ display: flex;
+ justify-content: center;
+}
+
+.box__card {
+ margin-right: 20px;
+}
+
+.box__card:last-child {
+ margin-right: 0;
+}
+img {
+ width: 100%;
+ height: 100%;
+ max-width: 200px;
+ display: block;
+}
+
+/* 見出しの講師名アニメーション */
+
+.main-heading {
+  color: #c3c8d4;
+  text-transform: uppercase;
+}
+
+.main-heading-primary {
+  display: block;
+  font-size: 3.0rem;
+  font-weight: 100;
+  letter-spacing: 35px;
+  animation: moveInLeft 1s ease-out;
+}
+
+.main-heading-secondary {
+  font-family: sans-serif;
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 31px;
+  color: #8791a8;
+  animation: moveInRight 1s ease-out;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  
+  80% {
+    transform: translateX(10px);
+  }
+  
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  
+  80% {
+    transform: translateX(-10px);
+  }
+  
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+/* 見出しのタイトル文字アニメーション */
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ea2ba4;
+  font-family: "Roboto Mono", monospace;
+  font-size: 3vw;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.text.is-active {
+  --opacity: 1;
+}
+
+.char {
+  display: inline-block;
+  opacity: var(--opacity, 0);
+  transition: opacity 3.5s cubic-bezier(0.77, 0, 0.175, 1);
+  transition-delay: calc(0.05s * var(--char-index));
+}
