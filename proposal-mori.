@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+     <link rel="stylesheet" href="./tekito1.css" type="text/css" />
+     <div class="bg_pattern Cross"></div>
+     <meta name="robots" content="noindex">
+    <title>講演会データ案①</title>
+   </head>
+   
+<body>
+
+  <div class="main">
+    <h1 class="main-heading">
+
+
+      <div class="container">
+        <div class="headline">
+      
+          <div class="text" aria-hidden="true">
+            <span class="char" style="--char-index: 0"> 児 </span>
+      
+            <span class="char" style="--char-index: 1"> 童 </span>
+      
+            <span class="char" style="--char-index: 2"> の </span>
+      
+            <span class="char" style="--char-index: 3"> 読 </span>
+            
+            <span class="char" style="--char-index: 4"> 書 </span>
+      
+            <span class="char" style="--char-index: 5"> 意 </span>
+      
+            <span class="char" style="--char-index: 6"> 欲 </span>
+      
+            <span class="char" style="--char-index: 7"> を </span>
+      
+            <span class="char" style="--char-index: 8"> 高 </span>
+      
+            <span class="char" style="--char-index: 9"> め </span>
+      
+            <span class="char" style="--char-index: 10"> る </span>
+      
+            <span class="char" style="--char-index: 11"> 札 </span>
+      
+            <span class="char" style="--char-index: 12"> 幌 </span>
+      
+            <span class="char" style="--char-index: 13"> 市 </span>
+      
+            <span class="char" style="--char-index: 14"> 開 </span>
+
+            <span class="char" style="--char-index: 15"> 放 </span>
+
+            <span class="char" style="--char-index: 16"> 図 </span>
+
+            <span class="char" style="--char-index: 17"> 書 </span>
+
+            <span class="char" style="--char-index: 18"> 館 </span>
+
+            <span class="char" style="--char-index: 19"> 事 </span>
+
+            <span class="char" style="--char-index: 20"> 業 </span>
+
+            <span class="char" style="--char-index: 21"> の </span>
+
+            <span class="char" style="--char-index: 22"> 未 </span>
+
+            <span class="char" style="--char-index: 23"> 来 </span>
+
+            
+          </div>
+        </div>
+      </div>
+            
+      <span class="main-heading-secondary">講師：出町南先生</span>
+    </h1>
+  </div>
+  
+  
+<div class="box4">
+
+  <h5>
+  <script src="js/time.js"></script>
+
+  <div id="countdownArea" class="countdown">
+    講演会開始まで、　<span style="color:#ea2ba4"><span id="countdown-day"></span>日</span>
+    <span id="countdown-hour"></span>時間
+    <span id="countdown-min"></span>分
+    <span id="countdown-sec"></span>秒　	&#8987;
+</div>
+</h5>
+
+<img src="access.png" width="200" height="200" align="right">
+
+<div class="box7">
+
+<div class="box"><div class="box__card"><div class="box__imgbox">
+  <br>
+    <p class="text__slideIn">講演会タイトル：「児童の読書意欲を高める札幌市開放図書館事業の未来」</p>
+    <p class="text__slideIn">講師：出町南(でまち　みなみ)　先生・本学非常勤講師(「児童サービス論」担当)</p>
+    <p class="text__slideIn">日時：2025年　1月25日（土）17：00～ 18：00（開場16：30）</p>
+    <p class="text__slideIn">会場：藤女子大学　北16条キャンパス　655教室（大学までの行き方については、右側QRコード参照）</p>
+    <p class="text__slideIn">対象：学校教育関係者・学校司書・市民・図書館に関心のある方</p>
+    <p class="text__slideIn">主催：藤女子大学図書館情報学課程</p>
+  <br> 
+</div></div></div>
+</div>
+
+<p> 長年、司書教諭として勤めた経歴を持つ学校図書館業務に詳しい先生です。</p>
+<br>
+<p>札幌市学校図書館地域開放事業は1978年にスタートしてから46年が経過しました。現在198校の小学校のうち124校が通称「学校図書館開放校」としての活動を行っています。</p>
+<p>活動を支える開放司書とボランティアは、地域住民や児童への図書貸出、読み聞かせ等創意工夫で活動を展開し、学校図書館にはなくてはならない存在です。</p>
+<p>司書教諭として開放図書館校勤務で培ってきた活動実践をもとに、課題と未来像を語ります。</p>
+<br>  
+</div>
+<p style="text-align: right"><span style="color:#a4dfdc">デザイン　森菜々美 (藤女子大学文学部文化総合学科4年)</span>　© 藤女子大学</p>
+
+</body>
+</html>
